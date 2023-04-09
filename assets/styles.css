@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./font/proxima_nova_font.otf') format('opentype');
+}
+
+.font-proxima {
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+.font-epilogue {
+  font-family: 'Epilogue', sans-serif;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.mt-_5{
+  margin-top: -5px;
+}
+
+.ml-7 {
+  margin-left: 5rem !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  background: #F90B31;
+  border-top: 5px solid #F90B31;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(249, 11, 49, 0.5);
+}
+
+.inactive {
+  border-top: 5px solid #A9A9A9;
+}
+
+.active a{
+  color: white !important;
+}
+
+.text-black{
+  color: black;
+}
+
+.fs-5_5 {
+  font-size: 18px;
+}
+
+.btn-theme-1 {
+  background: #F90B31;
+  box-shadow: 0px 4px 20px rgba(249, 11, 49, 0.5);
+  border-radius: 10px;
+}
+
+.btn-theme-1 a{
+  color: white;  
+}
