@@ -12,6 +12,10 @@
   font-family: 'Epilogue', sans-serif;
 }
 
+.bg-light-grey {
+  background: #FCFCFC;
+}
+
 .font-12 {
   font-size: 12px;
 }
@@ -38,6 +42,7 @@ a {
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   box-shadow: 0px 4px 20px rgba(249, 11, 49, 0.5);
+  padding-bottom: 2.5rem !important;
 }
 
 .inactive {
@@ -70,15 +75,43 @@ a {
   font-size: 18px;
 }
 
+.fs-60 {
+  font-size: 60px;
+}
+
+.main-head {
+  background: #1D63DC;
+  color: white;
+  border-radius: 10px;
+}
+
+.main-color {
+  color: #1D63DC;
+}
+
+.line-height-40 {
+  line-height: 40px;
+}
 .btn-theme-1 {
+  position: relative;
   background: #F90B31;
   box-shadow: 0px 4px 20px rgba(249, 11, 49, 0.5);
   border-radius: 10px;
+  z-index: 100;
 }
 
 .btn-theme-1 a{
   color: white;  
   line-height: 18px;
+}
+
+hr {
+  height: 4px !important;
+  background: #ACACAC;
+}
+
+.ellipse {
+  top: 6.5rem;
 }
 
 @media (min-width: 1920px){
