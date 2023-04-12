@@ -24,6 +24,13 @@
   margin-top: -5px;
 }
 
+.ms-6 {
+  margin-left: 7rem !important;
+}
+.mt-6{
+  margin-top: 7rem !important;
+}
+
 .pt-6{
   padding-top: 4rem;
 }
@@ -79,6 +86,10 @@ a {
   font-size: 60px;
 }
 
+.fs-26 {
+  font-size: 26px;
+}
+
 .main-head {
   background: #1D63DC;
   color: white;
@@ -89,9 +100,30 @@ a {
   color: #1D63DC;
 }
 
+.secondary-color {
+  color: #F90B31;
+}
+
 .line-height-40 {
   line-height: 40px;
 }
+
+.line-height-60 {
+  line-height: 60px;
+}
+
+.line-height-32 {
+  line-height: 32px;
+}
+
+.letter-spacing-1 {
+  letter-spacing: 0.1em;
+}
+
+.w-32rem {
+  width: 32rem;
+}
+
 .btn-theme-1 {
   position: relative;
   background: #F90B31;
@@ -111,7 +143,80 @@ hr {
 }
 
 .ellipse {
+  width: 60rem;
+  height: auto;
   top: 6.5rem;
+}
+
+.services-imgs {
+  top: -23rem;
+  left: 10rem;
+}
+.services-heading {
+  left: -2rem;
+  top: 9rem;
+}
+.services-content {
+  text-align: center;
+  top: 12rem;
+  width: 18rem;
+  left: -4rem;
+}
+.founder-img {
+  top: -3rem;
+  width: 16rem;
+}
+.rating-container {
+  background: rgba(255, 168, 0, 0.1);
+  border-radius: 70px;
+}
+.elps9{
+  left: 8rem;
+  top: 10rem;
+}
+
+.cst-1 {
+  left: 5rem;
+  top: 7rem;
+}
+.ratings{
+  background: url(./Ellipse_6.png);
+  background-size: cover;
+  width: 35rem;
+  height: 35rem;  
+}
+
+.ratings-str { 
+  left: 11rem;
+  top: 7rem;
+}
+.rating-content {
+  text-align: center;
+  top: 4rem;
+  width: 20rem;
+  left: -2rem;
+}
+
+.name-content{
+  top: 15rem;
+  left: -2rem;
+}
+
+.recomended-content {
+  top: 18rem;
+  left: -2.2rem;
+}
+
+.in-sol {
+  background: url(./in-sol.png);
+  background-size: cover;
+  width: 70rem;
+  height: 65rem;
+  top: -9rem;  
+}
+
+#ratings {
+  z-index: 1000;
 }
 
 @media (min-width: 1920px){
