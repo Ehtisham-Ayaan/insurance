@@ -1,0 +1,72 @@
+@media (min-width: 1920px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 1400px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+	.call-box{
+		top: 32rem;
+		left: 50rem;
+		width: 19rem;
+	}
+	.in-sol-card{
+		left: 5rem;
+	}
+	.gif-position {
+    top: 0rem;
+    right: 0rem;
+    width: 55%;
+	}
+	.ins-sol-img{
+		width: 100%;
+		height: auto;
+	}
+	.ratings {
+		width: 25rem;
+		height: 25rem;
+	}
+	.elps9 {
+		width: 15rem;
+	}
+	.cst-1 {
+		width: 21rem;
+		left: 6rem;
+    top: 9rem;
+	}
+	.ratings-str {
+    left: 5rem;
+    top: 5rem;
+	}
+	.name-content {
+    top: 11rem;
+    left: 0rem;
+	}
+	.recomended-content {
+    top: 14rem;
+    left: -1.2rem;
+	}
+	.ms-6 {
+		margin-left: 3rem!important;
+	}
+	.services-imgs {
+    top: -20rem;
+    left: 4rem;
+	}
+	.services-imgs > img {
+    width: 5rem;
+    height: auto;
+    top: 3rem;
+    position: absolute;
+    left: 4rem;
+	}
+	.border-right-nav:after {
+		right: -10px;
+	}
+	.ellipse {
+		width: 37rem;
+	}
+	.fs-60 {
+		font-size: 39px;
+	}
+}

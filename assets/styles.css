@@ -235,7 +235,7 @@ hr {
 }
 .founder-img {
   top: -3rem;
-  width: 16rem;
+  width: 15rem;
 }
 .rating-container {
   background: rgba(255, 168, 0, 0.1);
@@ -280,7 +280,8 @@ hr {
 
 .in-sol {
   background: url(./in-sol.png);
-  background-size: cover;
+  background-size: contain;
+  background-position: center top;
   width: 70rem;
   height: 65rem;
   top: -9rem;  
@@ -437,8 +438,7 @@ ul li::marker {
   color: #666666;
 }
 
-@media (min-width: 1920px){
-  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-      max-width: 1400px;
-  }
+.img-auto {
+  width: 100%;
+  height: auto;
 }

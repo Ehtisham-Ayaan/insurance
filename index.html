@@ -8,33 +8,34 @@
   <link rel="stylesheet" href="./lib/bootstrap-5.0.2/css/bootstrap.min.css" />
   <link rel="stylesheet" href="./lib/fontawesome-free-6.4.0-web/css/all.css">
   <link rel="stylesheet" href="./assets/styles.css" />
+  <link rel="stylesheet" href="./assets/responsiveness.css" />
 </head>
 <body>
-  <nav class="container d-flex flex-wrap justify-content-between">
+  <nav class="container d-flex justify-content-between">
     <section id="logo" class="mt-4 pt-3">
       <img src="./assets/final-logo 1.png" alt="logo" width="254" height="74"/>
       <p class="font-proxima font-12 ml-7 mt-_5">Protection for what matters most</p>
     </section>
     <section id="route" class="font-epilogue fs-5_5">
-      <div class="d-inline-block ms-4 active pt-6 pb-5 px-4">
+      <div class="d-inline-block ms-4 active pt-6 pb-5 px-xl-4 px-1">
         <a class="text-black" href="#"> Home </a>
       </div>
-      <div class="d-inline-block ms-1 inactive pt-6 pb-4 px-4">
+      <div class="d-inline-block ms-1 inactive pt-6 pb-4 px-xl-4 px-1">
         <a class="text-black border-right-nav" href="#"> About </a>
       </div>
-      <div class="d-inline-block ms-1 inactive pt-6 pb-4 px-4">
+      <div class="d-inline-block ms-1 inactive pt-6 pb-4 px-xl-4 px-1">
         <a class="text-black border-right-nav" href="#"> Services </a>
       </div>
-      <div class="d-inline-block ms-1 inactive pt-6 pb-4 px-4">
+      <div class="d-inline-block ms-1 inactive pt-6 pb-4 px-xl-4 px-1">
         <a class="text-black border-right-nav" href="#"> Claims Center </a>
       </div>
-      <div class="d-inline-block ms-1 inactive pt-6 pb-4 px-4">
+      <div class="d-inline-block ms-1 inactive pt-6 pb-4 px-xl-4 px-1">
         <a class="text-black border-right-nav" href="#"> News </a>
       </div>
-      <div class="d-inline-block ms-1 inactive pt-6 pb-4 px-4">
+      <div class="d-inline-block ms-1 inactive pt-6 pb-4 px-xl-4 px-1">
         <a class="text-black" href="#"> Contact </a>
       </div>
-      <div class="d-inline-block ms-4 px-5 py-3 fw-bolder btn-theme-1 ">
+      <div class="d-inline-block ms-2 px-xl-5 px-2 py-3 fw-bolder btn-theme-1 ">
         <a class="text-black" href="#">Get a Quote</a>
       </div>
       </section>
@@ -43,21 +44,26 @@
     <img src="./assets/Ellipse 4.png" alt="design" class="position-absolute ellipse"/>
     <section class="container d-flex flex-wrap">
       <section class="w-50 mt-5">
-        <h1 class="fw-bolder mt-5 pt-5 fs-60">
-          Get the Protection You Need from 
-          <span class="d-block main-head ps-2 pt-1 me-5">Gonzales Insurance.</span>
+        <h1 class="fw-bolder mt-5 pt-xl-5 fs-60">
+          <span class="d-block">Get the Protection</span>
+          You Need from 
+          <span class="d-block main-head ps-xl-2 ps-1 pt-1 me-5">Gonzales Insurance.</span>
         </h1>
         <h4 class="fw-bolder ms-2 mt-4 line-height-40">
           Customized insurance solutions for <span class="d-block">your unique needs.</span>
         </h4>
         <span class="d-block fw-bolder mt-5 pt-3 ms-2">View all Services</span>
         <hr class="d-block mt-5"/>
-        <section class="my-5 d-flex flex-wrap justify-content-around">
-          <p class="d-block">
-            <span class="fs-1 fw-bolder line-height-40 main-color">12+ </span> years of Experience
+        <section class="my-5 d-flex justify-content-around">
+          <p class="d-flex align-items-center">
+            <span class="fs-1 fw-bolder line-height-40 main-color">12+ </span> 
+            <span class="d-inline-block ms-1">years of Experience</span>
           </p>
           &nbsp;
-          <p class="d-block"><span class="fs-1 fw-bolder line-height-40 main-color"> 100% </span> &nbsp;Customer Satisfaction</p>
+          <p class="d-flex align-items-center">
+            <span class="fs-1 fw-bolder line-height-40 main-color"> 100% </span>
+            <span class="d-inline-block ms-1">&nbsp;Customer Satisfaction</span>
+          </p>
         </section>
       </section>
       <section>
@@ -79,29 +85,31 @@
       <h6 class="secondary-color fw-bolder line-height-60 letter-spacing-1 pt-5">Company history and mission statement</h6>
       <h1 class="fs-60 text-black fw-bolder line-height-60">Insurance Services</h1>
     </div>
-    <section class="d-flex container mt-4 flex-wrap">
-      <div class="services">
-        <img src="./assets/Ellipse_5.png" alt="img" class="position-relative"/>
-        <div class="position-relative services-imgs">
-          <img src="./assets/car-insurance 1.png" alt="car insurance" />
-          <h3 class="position-absolute fw-bolder fs-26 services-heading">Auto insurance</h3>
-          <span class="d-block position-absolute services-content">Provide financial security for your loved ones in case of the unexpected.</span>
+    <section class="container mt-4 flex-wrap">
+      <div class="row">
+        <div class="services col-4">
+          <img src="./assets/Ellipse_5.png" alt="img" class="position-relative img-auto"/>
+          <div class="position-relative services-imgs">
+            <img src="./assets/car-insurance 1.png" alt="car insurance"/>
+            <h3 class="position-absolute fw-bolder fs-26 services-heading">Auto insurance</h3>
+            <span class="d-block position-absolute services-content">Provide financial security for your loved ones in case of the unexpected.</span>
+          </div>
         </div>
-      </div>
-      <div class="ms-4">
-        <img src="./assets/Ellipse_5.png" alt="img" />
-        <div class="position-relative services-imgs">
-          <img src="./assets/home-insurance 1.png" alt="home insurance" />
-          <h3 class="position-absolute fw-bolder fs-26 services-heading">Home insurance</h3>
-          <span class="d-block position-absolute services-content">Safeguard your home and its contents against unexpected events.</span>
+        <div class="col-4">
+          <img src="./assets/Ellipse_5.png" alt="img" class="img-auto"/>
+          <div class="position-relative services-imgs">
+            <img src="./assets/home-insurance 1.png" alt="home insurance" />
+            <h3 class="position-absolute fw-bolder fs-26 services-heading">Home insurance</h3>
+            <span class="d-block position-absolute services-content">Safeguard your home and its contents against unexpected events.</span>
+          </div>
         </div>
-      </div>
-      <div class="ms-4">
-        <img src="./assets/Ellipse_5.png" alt="img" />
-        <div class="position-relative services-imgs">
-          <img src="./assets/life-insurance (1) 1.png" alt="life insurance" />
-          <h3 class="position-absolute fw-bolder fs-26 services-heading">Life insurance</h3>
-          <span class="d-block position-absolute services-content">Provide financial security for your loved ones in case of the unexpected.</span>
+        <div class="col-4">
+          <img src="./assets/Ellipse_5.png" alt="img" class="img-auto"/>
+          <div class="position-relative services-imgs">
+            <img src="./assets/life-insurance (1) 1.png" alt="life insurance" />
+            <h3 class="position-absolute fw-bolder fs-26 services-heading">Life insurance</h3>
+            <span class="d-block position-absolute services-content">Provide financial security for your loved ones in case of the unexpected.</span>
+          </div>
         </div>
       </div>
     </section>
@@ -127,9 +135,9 @@
     </section>
   </section>
 
-  <section id="founders" class="font-epilogue mt-5 pt-5">
-    <section class="d-flex container mt-4 flex-wrap">
-      <div class="d-flex flex-wrap">
+  <section id="founders" class="font-epilogue mt-5 pt-5 container">
+    <section class="row mt-4 flex-wrap">
+      <div class="d-flex flex-wrap col-4">
         <div>
           <h4 class="fw-bolder">Thomas Walkar</h4>
           <span class="fs-5_5 secondary-color fw-bolder">company founder</span>
@@ -140,7 +148,7 @@
         </div>
         <img src="./assets/thomas.png" class="position-relative founder-img"/>
       </div>
-      <div class="d-flex flex-wrap">
+      <div class="d-flex flex-wrap col-4">
         <div>
           <h4 class="fw-bolder">Thomas Walkar</h4>
           <span class="fs-5_5 secondary-color fw-bolder">company founder</span>
@@ -151,7 +159,7 @@
         </div>
         <img src="./assets/thomas2.png" class="position-relative founder-img"/>
       </div>
-      <div class="d-flex flex-wrap">
+      <div class="d-flex flex-wrap col-4">
         <div>
           <h4 class="fw-bolder">Thomas Walkar</h4>
           <span class="fs-5_5 secondary-color fw-bolder">company founder</span>
@@ -172,7 +180,7 @@
       <img src="./assets/stars.png" alt="rating" class="d-block mx-auto rating-container px-5 py-3 mt-5">
       <h4 class="fw-bolder mt-1 line-height-60">5 Star Insurance Company</h4>
     </div>
-    <section class="d-flex container mt-4 flex-wrap">
+    <section class="d-flex container mt-4">
       <div class="services me-5 ratings">
         <div class="position-relative ratings-str">
           <img src="./assets/stars.png" alt="rating" width="245" height="auto"/>
@@ -201,7 +209,7 @@
     <div class="my-5"><img src="./assets/Group 7.png" alt="kindly place icons here" class="mx-auto d-block pt-5 pb-4 mt-6"/></div>
   </section>
   <section id="insurance-solutions" class="font-epilogue">
-    <div class="d-flex flex-wrap">
+    <div class="d-flex">
       <div class="position-relative in-sol me-5">
         <span class="fs-5_5 fw-bolder position-relative in-sol-head secondary-color line-height-60">Establish trust and social proof, such as</span>
         <span class="fs-60 fw-bolder position-relative in-sol-main text-black line-height-60">Insurance Solutions</span>
@@ -237,7 +245,7 @@
         </div>
       </div>
       <div>
-        <img src="./assets/sandp_homepage_apt@2x 1.png" width="574" height="571" alt="home" class="mt-7 pt-5 ms-5 ps-5" />
+        <img src="./assets/sandp_homepage_apt@2x 1.png" width="574" height="571" alt="home" class="mt-7 pt-5 ms-5 ps-5 ins-sol-img" />
       </div>
     </div>
   </section>
