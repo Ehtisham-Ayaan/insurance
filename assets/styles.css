@@ -43,8 +43,8 @@
   margin-top: 9rem !important;
 }
 
-.mt-20rem{
-  margin-top: 20rem !important;
+.mt-14rem{
+  margin-top: 14rem !important;
 }
 
 
@@ -280,7 +280,7 @@ hr {
 
 .in-sol {
   background: url(./in-sol.png);
-  background-size: contain;
+  background-size: cover;
   background-position: center top;
   width: 70rem;
   height: 65rem;
@@ -373,7 +373,7 @@ hr {
 }
 
 .bg-form {
-  right: 0rem;
+  left: -6rem;
 }
 
 .form {
